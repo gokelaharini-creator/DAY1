@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class ex7 {
+   public ex7() {
+   }
+
+   public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      int var2 = var1.nextInt();
+      int var3 = var1.nextInt();
+      int var4 = var1.nextInt();
+      int var5 = var2 * var3 * var4 / 100;
+      System.out.println(var5);
+   }
+}
